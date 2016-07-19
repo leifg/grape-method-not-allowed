@@ -1,5 +1,7 @@
 # Problem with Grape and Method not Allowed
 
+This projects acts as an example for [Grape Issue #1414](https://github.com/ruby-grape/grape/issues/1444)
+
 Grape comes with "Method not Allowed" funcionality out of the box.
 Whenever you call a path with a HTTP verb you did not specify, grape will raise an error not allowed error.
 This logic causes problems however if you have a before block specified.
